@@ -6,8 +6,8 @@ public class Main {
 
         mergeSort(array);
 
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
+        for (int i : array) {
+            System.out.print(i + " ");
         }
     }
 
