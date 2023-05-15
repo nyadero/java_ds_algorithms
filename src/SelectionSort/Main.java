@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
      // Selection sort - search through an array and keep track of the minimum value during each iteration. At the end of each iteration, variables are swapped. Takes quadratic  time O(n^2). Okay for small data
 
-        int array[] = {8, 3, 2, 4, 9, 5, 3, 6, 1, 7};
+        int[] array = {8, 3, 2, 4, 9, 5, 3, 6, 1, 7};
 
 //        for (int i = 0; i < array.length; i++) {
 //            System.out.print(i);
